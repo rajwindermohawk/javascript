@@ -1,68 +1,46 @@
-let score = "hitesh"
+let score  = 100;
+console.log(typeof score);
+let scores = "1sf00";
+console.log(typeof (scores));
+//this is type casting 
+let intValue = Number(scores)
 
-//console.log(typeof score);
-//console.log(typeof(score));
+//typeof function checks the type of a variable
+console.log(typeof (intValue));
 
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
-
+//outputs nan because it is not a number
+console.log(intValue)
+// when we typecast a null in numnber and then we try to print it return 0
+let value = null ;
+console.log(typeof value)
+let changevalue = Number(value)
+console.log(typeof(changevalue))
+console.log(changevalue);
 
 // "33" => 33
-// "33abc" => NaN
-//  true => 1; false => 0
+// "343fv" => nan
+// true = 1 and false = 0
 
-let isLoggedIn = "hitesh"
+let boolea = true;
+let convt = Number(boolea);
+console.log(convt);
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+// if do this in opposite way 
+let  isfine = 1;
+let cinversion = Boolean(isfine);
+console.log(cinversion)
+ 
 
-// 1 => true; 0 => false
-// "" => false
-// "hitesh" => true
+// if we convert any empty string it will be fale 
+let str = "";
+let convvrt = Boolean(str);
+console.log(convvrt);
 
-let someNumber = 33
-
-let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
-
-// *********************** Operations ***********************
-
-let value = 3
-let negValue = -value
-// console.log(negValue);
-
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**3);
-// console.log(2/3);
-// console.log(2%3);
-
-let str1 = "hello"
-let str2 = " hitesh"
-
-let str3 = str1 + str2
-// console.log(str3);
-
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
-
-// console.log( (3 + 4) * 5 % 3);
-
-// console.log(+true);
-// console.log(+"");
-
-let num1, num2, num3
-
-num1 = num2 = num3 = 2 + 2
-
-let gameCounter = 100
-++gameCounter;
-console.log(gameCounter);
-
-// link to study
-// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+// converting a non empty string 
+let string = "hello";
+let convvr = Boolean(string);
+console.log(convvr);
+let nmb = 44;
+let strnum = String(nmb);
+console.log(typeof(strnum))
+console.log(strnum);
