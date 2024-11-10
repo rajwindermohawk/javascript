@@ -44,3 +44,42 @@ let nmb = 44;
 let strnum = String(nmb);
 console.log(typeof(strnum))
 console.log(strnum);
+
+let vale = 3;
+let updatedvalue = -value;
+console.log(updatedvalue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**2);
+console.log(2/2);
+console.log(2%2);
+
+let srt1 = "hello";
+let str2 = "hello2";
+
+let str3 = srt1 + str2;
+console.log(str3);
+
+console.log("1" + 2);
+
+console.log(1 + "2");
+
+console.log(1 + 2+ "3");
+console.log("1" + 2+ 3);
+// the unary operator will convert exp to number so the result will be in the numeber
+console.log(+true);
+console.log(+"");
+
+let num1, num2, num3 ;
+num1 = num2 = num3 = 2 + 2 ;
+
+
+//prefixs and sufixs 
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+gameCounter--;
+console.log(gameCounter);
