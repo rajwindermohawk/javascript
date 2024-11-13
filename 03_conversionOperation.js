@@ -15,6 +15,7 @@ let value = null ;
 console.log(typeof value)
 let changevalue = Number(value)
 console.log(typeof(changevalue))
+console.log("hello")
 console.log(changevalue);
 
 // "33" => 33
